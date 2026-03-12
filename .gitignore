@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+venv/
+
+# Sensitive Data
+.env
+
+# Python internals
+__pycache__/
+*.py[cod]
+
+# Agent Kit / IDE
+.adk/
+.vscode/
+
+# Project specifics
+*.log
