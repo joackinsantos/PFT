@@ -8,3 +8,13 @@ dependencies = [
     "google-adk>=1.26.0",
     "python-dotenv>=1.2.2",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = "."
+
+[tool.hatch.build.targets.wheel]
+packages = ["agents", "lib", "tools"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -1342,7 +1342,7 @@ wheels = [
 [[package]]
 name = "pft"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "google-adk" },
     { name = "python-dotenv" },
